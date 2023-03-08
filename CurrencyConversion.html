@@ -8,7 +8,6 @@
     <title>Currency Conversion</title>
 </head>
 <body>
-    <p id="demo"></p>
     <table>
         <tr>
            <th>Amount</th>
@@ -19,18 +18,19 @@
            <td><input type="number" id="amount"></td>
            <td>
                 <select name="inputCurrency" id="inputCurrency">
-                    <option value="USA">USA</option>
+                    <option value="USD">USD</option>
                     <option value="VND">VND</option>
                 </select>
            </td>
            <td>
                 <select name="outputCurrency" id="outputCurrency">
-                    <option value="USA">USA</option>
+                    <option value="USD">USD</option>
                     <option value="VND">VND</option>
                 </select>
             </td>
         </tr>
     </table>
+    <button onclick="Conversion()">Conver</button>
     <p id="result"></p>
 
     <script src="js/CurrencyConversion.js"></script>
